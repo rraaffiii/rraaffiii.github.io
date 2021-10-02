@@ -108,7 +108,7 @@ form.addEventListener('submit', (e) => {
   })
 
   if (valid && errors.length == 0) {
-    const url = '/mail.php'
+    const url = 'https://formspree.io/f/xoqybdyk'
     fetch(url, {
       method: 'POST',
       body: JSON.stringify({
